@@ -12,6 +12,7 @@ Use this skill for transport12 engineering work. Treat transport12 as a standalo
 - Do not mention or depend on closed internal systems in public code, documentation, commits, or companion repositories.
 - Do not put production domains, tokens, SSH credentials, bot tokens, database passwords, or provider secrets into repositories.
 - External AI integrations, including MCP, must call the transport12 HTTP API. Do not duplicate direct source-provider parsing in companion clients.
+- Do not model favorites, language selection, localized answer generation, main menus, or Telegram/VK button flows as MCP or skill responsibilities.
 - Keep user-facing text localized through `src/i18n/index.ts`; avoid hardcoded UI strings in bots and apps.
 - For uncertain minority-language terms, prefer an explicit fallback over an invented translation.
 - Before deployment, run the project build and verify the service is active after restart.
