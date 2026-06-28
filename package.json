@@ -1,0 +1,26 @@
+{
+  "name": "transport12-skill",
+  "version": "0.1.0",
+  "description": "Codex skill for working on the transport12 service and companion repositories.",
+  "license": "MIT",
+  "homepage": "https://github.com/yasg1988/transport12-skill#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yasg1988/transport12-skill.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yasg1988/transport12-skill/issues"
+  },
+  "files": [
+    "transport12",
+    "README.md",
+    "docs/assets/transport12-skill.png"
+  ],
+  "keywords": [
+    "codex",
+    "skill",
+    "transport12",
+    "transport",
+    "mcp"
+  ]
+}

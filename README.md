@@ -33,3 +33,19 @@ transport12/
   agents/openai.yaml
   references/api.md
 ```
+
+## Установка из npm
+
+```bash
+npm pack transport12-skill
+```
+
+Пакет содержит папку `transport12/` со skill. Для локального использования скопируйте эту папку в каталог skills вашего Codex-окружения.
+
+Пример:
+
+```bash
+npm pack transport12-skill
+tar -xzf transport12-skill-*.tgz
+cp -R package/transport12 ~/.codex/skills/
+```
