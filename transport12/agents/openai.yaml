@@ -1,0 +1,4 @@
+interface:
+  display_name: "Transport12"
+  short_description: "Work on the transport12 service, API, bots, mini app, MCP, and deployment."
+  default_prompt: "Help with transport12: inspect code, update API behavior, adjust localization, debug integrations, or verify deployment."
