@@ -28,4 +28,5 @@ Companion projects should call the transport12 HTTP API and should not reimpleme
 
 - `GET /api/v1/bus-station/destinations/search?q=QUERY` finds destination options.
 - `GET /api/v1/bus-station/races?destinationId=ID&date=dd.mm.yyyy` returns trips for the selected date.
+- `GET /api/v1/bus-station/calendar?destinationId=ID&from=dd.mm.yyyy&days=31` returns race availability by date.
 - Ticket purchase links, when present, should be shown as buttons or compact links.

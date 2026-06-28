@@ -63,3 +63,25 @@ Race records usually contain:
 - `scheduleUrl`
 
 Use `buyUrl` first when present. Fall back to `scheduleUrl` for a compact route page link.
+
+## Bus Station Calendar
+
+Calendar records are aggregated by transport12 from race lookups.
+
+Calendar requests support:
+
+- `destinationId`
+- `from` in `dd.mm.yyyy`
+- `to` in `dd.mm.yyyy`
+- `days` when `to` is omitted
+
+The date range is capped to the source-supported future window. Calendar day records contain:
+
+- `date`
+- `hasRaces`
+- `raceCount`
+- `firstDepartureTime`
+- `minPriceRub`
+- `freeSeats`
+- `totalSeats`
+- `scheduleUrl`

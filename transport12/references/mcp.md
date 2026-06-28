@@ -22,7 +22,7 @@ Use this reference when changing `transport12-mcp`.
 - Stops: `search_stops`, `find_nearby_stops`, `get_stop_routes`, `get_stop_arrivals`.
 - Routes: `search_routes`, `get_route`, `get_route_stops`.
 - Vehicles: `get_route_vehicles`, `get_vehicle_forecast`.
-- Bus station: `search_bus_station_destinations`, `get_bus_station_races`, `get_ticket_url`.
+- Bus station: `search_bus_station_destinations`, `get_bus_station_races`, `get_bus_station_calendar`, `get_ticket_url`.
 - Cross-search: `search_everything`.
 
 ## Adding Tools
