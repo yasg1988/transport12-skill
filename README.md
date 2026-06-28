@@ -49,3 +49,11 @@ npm pack transport12-skill
 tar -xzf transport12-skill-*.tgz
 cp -R package/transport12 ~/.codex/skills/
 ```
+
+PowerShell:
+
+```powershell
+npm pack transport12-skill
+tar -xzf transport12-skill-*.tgz
+Copy-Item -Recurse package\transport12 $HOME\.codex\skills\transport12
+```

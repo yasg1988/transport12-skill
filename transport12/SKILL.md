@@ -49,6 +49,7 @@ Common endpoints:
 - `GET /api/v1/vehicles/:deviceCode/forecast`
 - `GET /api/v1/bus-station/destinations/search?q=...`
 - `GET /api/v1/bus-station/races?destinationId=...&date=dd.mm.yyyy`
+- `GET /api/v1/bus-station/calendar?destinationId=...&from=dd.mm.yyyy&days=31`
 
 For endpoint notes, read `references/api.md`.
 For field contracts and formats, read `references/api-contracts.md`.
