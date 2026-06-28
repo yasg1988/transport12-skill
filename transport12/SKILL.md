@@ -50,7 +50,14 @@ Common endpoints:
 - `GET /api/v1/bus-station/destinations/search?q=...`
 - `GET /api/v1/bus-station/races?destinationId=...&date=dd.mm.yyyy`
 
-For richer API details, read `references/api.md`.
+For endpoint notes, read `references/api.md`.
+For field contracts and formats, read `references/api-contracts.md`.
+
+## Companion Repositories
+
+When changing `transport12-mcp`, read `references/mcp.md`.
+When changing deployment behavior, read `references/deployment.md`.
+When changing validation or CI checks, read `references/testing.md`.
 
 ## Localization
 
@@ -61,6 +68,8 @@ When adding a button, label, error, or status message:
 3. Add a fallback in `t()` only when missing translations are expected.
 4. Add the key to VK translation export if VK uses it.
 5. Build and spot-check at least Russian plus one non-Russian locale.
+
+For detailed localization rules, read `references/localization.md`.
 
 ## Deployment
 
