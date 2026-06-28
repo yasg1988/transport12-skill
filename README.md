@@ -33,23 +33,3 @@ transport12/
   agents/openai.yaml
   references/api.md
 ```
-
-## План
-
-1. Добавить `references/localization.md`:
-   правила добавления новых UI-ключей, fallback-логика, проверка Telegram и VK.
-
-2. Добавить `references/deployment.md`:
-   безопасный порядок сборки, выкладки и проверки сервиса без публикации секретов.
-
-3. Добавить `references/mcp.md`:
-   как расширять `transport12-mcp`, какие tools допустимы, а какие должны оставаться в основном сервисе.
-
-4. Добавить `references/api-contracts.md`:
-   стабильные поля API, ожидаемые форматы дат, координат, рейсов и прибытия.
-
-5. Добавить `references/testing.md`:
-   минимальные проверки перед коммитом: TypeScript build, smoke API, skill validation, MCP build.
-
-6. Поддерживать публичную безопасность:
-   регулярно проверять README, `.env.example`, skill references и MCP README на отсутствие закрытых внутренних упоминаний, реальных доменов и секретов.
